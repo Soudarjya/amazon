@@ -1,0 +1,245 @@
+/*font awesome website to use fonts on your website*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /*the border will apply on the inside of the div*/
+    margin: 0;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    border: 2px black transparent;
+}
+
+.border:hover {
+    border: 2px white solid;
+}
+
+.nav-location {
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-left:15px;
+}
+
+.nav-country {
+    width: 35px;
+    height: 15px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 14px;
+}
+.nav-address{
+   width: 88px;
+   height: 50px;
+   margin: 15px;
+   display: flex;
+   align-items: center;
+}
+.deliver{
+    margin-left: 15px;
+}
+.all{
+    background-color: #CCCCCC;
+    width: 50px;
+    height: 40px;
+    border: none;
+}
+.searchbar{
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+.lensicon{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.searchicon{
+    height: 40px;
+    width: 45px;
+    background-color:#eea84e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+}
+.searchicon:hover{
+    background-color: #bb7418;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.box4{
+    width: 130px;
+    height: 50px;
+    padding-top: 20px;
+}
+.hello{
+    font-size:12px;
+    color: white;
+    width: 70px;
+    height: 14px;
+}
+.account{
+    font-size: 14px;
+    color: white;
+    width: 113px;
+    height: 15px;
+}
+.box5{
+    height: 50px;
+    width: 75px;
+    color: white;
+    padding-top: 20px;
+}
+.return{
+    font-size: 12px;
+}
+.order{
+    font-size: 14px;
+}
+.cart{
+    height: 50px;
+    width:83px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.typecart{
+    font-size: 14px;
+}
+/*menu  bar*/
+.menu{
+    background-color: #073a3a;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    color: white;
+}
+.menuicon{
+    width: 58px;
+    height: 40px;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    color: white;
+    width: 103px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer{
+    width: 128px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.registry{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+}
+.sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 41px;
+}
+/*image*/
+.image{
+    height: 600px;
+    background-image: url(https://m.media-amazon.com/images/I/71VBt4eTg3L._SX3000_.jpg);
+    background-size: cover;
+}
+.gaming{
+    height: 420px;
+    width: 48%;
+    border: 15px solid rgb(165, 119, 157);
+
+}
+.space{
+    height: 420px;
+    width: 48%;
+    border: 15px solid rgb(165, 119, 157);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.options{
+    display: flex;
+    background-color: white;
+}
+.dining{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border: 15px solid white;
+}
+.home{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 15px solid white;
+}
+.kitchen{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border: 15px solid white;
+
+}
+.beauty{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border: 15px solid white;
+}
+.uno{
+    display: flex;
+    width:90%;
+    justify-content: space-evenly;
+}
+.dos{
+    display: flex;
+}
