@@ -4,6 +4,7 @@
     border: border-box;
     /*the border will apply on the inside of the div*/
     margin: 0;
+    background-color: #eea84e;
 }
 
 .navbar {
